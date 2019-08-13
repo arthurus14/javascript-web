@@ -106,7 +106,7 @@ var data = i.textContent;
 console.log(data);
 console.log(data.length);
 
-    if(data.length > 4){
+    if(data.length > 23){
         document.body.insertBefore(i,contenu);
         var myForm = document.getElementById('myForm').remove();
 
